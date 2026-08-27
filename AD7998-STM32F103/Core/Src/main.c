@@ -74,7 +74,7 @@ void I2C_Scan(I2C_HandleTypeDef *hi2c)
     }
 }
 
-//-------------------------------------------------------------------------------------------[Función para detectar dispositivos]
+//-------------------------------------------------------------------------------------------[Función para configurar canales]
 HAL_StatusTypeDef AD7998_ConfigureAllChannels(uint8_t dev_addr)
 {
     uint8_t config_payload[3];
